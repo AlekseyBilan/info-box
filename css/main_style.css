@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    div.row {width: 1500px;}
+}
+@media screen and (max-width: 1280px) {
+    div.row {width: 1100px;}
+}
+@media screen and (max-width: 1024px) {
+    div.row {width: 980px;}
+}
+@media screen and (max-width: 840px) {
+    div.row {width: 600px;}
+}
+@media screen and (max-width: 600px) {
+    div.row {width: 400px;}
+}
+
+#info_box_wrapper, #info_box_wrapper_second, #info_box_wrapper_third {
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px #d6d6d8;
+    border: 1px solid #cecece;
+    margin: 20px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+#info_box_wrapper {
+    background: rgba(0, 0, 0, 0) url("../img/comp_plate_gray_basic.png") no-repeat scroll 0 0 / 102% 102%;
+}
+
+#info_box_wrapper_second {
+    background-color: rgba(200, 255, 171, 0.1);
+}
+
+#info_box_wrapper_third {
+    background-color: rgba(255, 205, 30, 0.05);
+}
